@@ -3,3 +3,7 @@ Google Chrome Extension that displays historical lowest price data & adjusted re
 <p float="left">
   <img src="https://github.com/kuoalan/Amazon-Buddy/blob/main/Screenshots/screenshot_1.png" width="800">
 </p>
+
+## Features
+* Access pricing data and adjusted review score with one click without leaving Amazon.com
+* Color coded review score allows you to quickly evaluate the actual quality of the product
