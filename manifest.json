@@ -1,0 +1,30 @@
+{
+  "name": "Amazon Buddy",
+  "description": "This extension provides historical price data and review grades for products on Amazon.com",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "https://reviewmeta.com/",
+    "https://camelcamelcamel.com/",
+    "https://www.amazon.com/*",
+    "declarativeContent"
+  ],
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*"
+      ],
+      "css" :["background.css"],
+      "js" :["jquery-3.5.1.min.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
