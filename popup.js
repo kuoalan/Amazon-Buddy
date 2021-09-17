@@ -80,7 +80,10 @@ async function getDisplayData() {
 				let pricePercent = (priceDifference / lowestPrice[1]) * 100
 				document.getElementById('priceDiff').textContent = `+$${priceDifference.toFixed(2)} (Currently ${pricePercent.toFixed(2)}% higher than the lowest price)`
 			}
+			else {
+				document.getElementById('priceDiff').textContent = "-"
 				
+			}
 		}
 	})
 	$.get('https://reviewmeta.com/amazon/' + productID, function(response) {
