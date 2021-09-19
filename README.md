@@ -6,7 +6,7 @@ Google Chrome Extension that displays historical lowest price data & adjusted re
 
 ## Features
 ### Provides shopping information conveniently on the Amazon product page
-* Obtains price and review score data from CamelCamelCamel and ReviewMeta via AJAX requests and regular expression matching.
+* Obtains price and review score data from CamelCamelCamel and ReviewMeta via AJAX requests and regular expression matching (no official API).
 ## Requirements
 ### Google Chrome
 * Download and install the appropriate version of Google Chrome for your operating system.
@@ -18,3 +18,7 @@ Google Chrome Extension that displays historical lowest price data & adjusted re
 3. Click `Load Unpacked` and select the folder containing the Amazon Buddy extension files.
 4. Pin the Amazon Buddy extension for easier access when browsing.
 5. Extension will be active on any Amazon product page. Click the Amazon Buddy icon to see shopping information.
+
+## Credits
+* Lowest price data sourced from <a href="https://camelcamelcamel.com/">CamelCamelCamel</a>
+* Adjusted review data sourced from <a href="https://reviewmeta.com/">Reviewmeta.com</a>
