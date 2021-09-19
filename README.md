@@ -5,5 +5,16 @@ Google Chrome Extension that displays historical lowest price data & adjusted re
 </p>
 
 ## Features
-* Access pricing data and adjusted review score with one click without leaving Amazon.com
-* Color coded review score allows you to quickly evaluate the actual quality of the product
+### Provides shopping information conveniently on the Amazon product page
+* Obtains price and review score data from CamelCamelCamel and ReviewMeta via AJAX requests and regular expression matching.
+## Requirements
+### Google Chrome
+* Download and install the appropriate version of Google Chrome for your operating system.
+### Extension Files
+* Download and unzip the Amazon Buddy folder to your desired folder.
+## Instructions
+1. Open the Extension Management page by navigating to chrome://extensions, or select Manage Extensions at the bottom of the Extensions menu.
+2. Enable Developer Mode by clicking the toggle switch.
+3. Click `Load Unpacked` and select the Amazon Buddy folder containing the extension files.
+4. Pin the Amazon Buddy extension for easier access.
+5. Extension will be active on any Amazon product page. Click the Amazon Buddy icon to see shopping information.
