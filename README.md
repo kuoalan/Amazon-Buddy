@@ -13,7 +13,7 @@ Google Chrome Extension that displays historical lowest price data & adjusted re
 ### Extension Files
 * Download and unzip the Amazon Buddy folder to your desired folder.
 ## Instructions
-1. Open the Extension Management page by navigating to chrome://extensions, or select Manage Extensions at the bottom of the Extensions menu.
+1. Open the Extension Management page by navigating to `chrome://extensions`, or select `Manage Extensions` at the bottom of the Extensions menu.
 2. Enable Developer Mode by clicking the toggle switch.
 3. Click `Load Unpacked` and select the Amazon Buddy folder containing the extension files.
 4. Pin the Amazon Buddy extension for easier access.
